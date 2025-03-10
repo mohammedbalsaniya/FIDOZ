@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <title>FIDOZ</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+      .card:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img
+            src="img/logo.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt="FIDOZ Logo"
+          />
+          FIDOZ
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section (Home) -->
+    <div
+      id="home"
+      class="jumbotron text-white d-flex align-items-center"
+      style="
+        background-image: url('img/banner.png');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+      "
+    >
+      <div class="container text-start">
+        <h1 class="display-3 fw-bold">Welcome to FIDOZ</h1>
+        <p class="lead">Premium Leather Belts Crafted with Excellence</p>
+        <hr class="my-4 bg-light" />
+        <p>
+          Discover our range of high-quality leather belts, designed for
+          durability and style.
+        </p>
+        <a class="btn btn-primary btn-lg" href="#products" role="button"
+          >Shop Now</a
+        >
+      </div>
+    </div>
+
+    <!-- Our Products Section -->
+    <section id="products" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Products</h2>
+        <div class="row">
+          <!-- Product 1 -->
+          <div class="col-md-4">
+            <div class="card m-2">
+              <img
+                src="img/p1.png"
+                class="card-img-top"
+                alt="Fidoz Luxury Genuine Leather Belt"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  <strong>Fidoz Luxury Genuine Leather Belt</strong>
+                </h5>
+                <p class="card-text">
+                  Crafted with <strong>premium genuine leather</strong>, this
+                  <strong>adjustable designer belt</strong> features a
+                  <strong>gold anchor buckle</strong>, making it the perfect
+                  <strong>fashion accessory</strong> for men. Designed for
+                  <strong>durability, comfort, and elegance</strong>, it
+                  complements both <strong>formal and casual attire</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="col-md-4">
+            <div class="card m-2">
+              <img
+                src="img/product1.png"
+                class="card-img-top"
+                alt="FIDOZ® 2-in-1 Reversible PU Leather Belt"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  <strong>FIDOZ® 2-in-1 Reversible PU Leather Belt</strong>
+                </h5>
+                <p class="card-text">
+                  This <strong>adjustable belt</strong> offers a
+                  <strong>versatile 2-in-1 design</strong>, featuring
+                  <strong>black & brown dual-sided leather</strong> for
+                  effortless styling. Made from
+                  <strong>high-quality PU leather</strong>, it fits waist sizes
+                  <strong>26" to 44"</strong> and comes with a
+                  <strong>durable metal buckle</strong> for a sleek, modern
+                  look.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="col-md-4">
+            <div class="card m-2">
+              <img
+                src="img/p4.png"
+                class="card-img-top"
+                alt="FIDOZ® Genuine Leather Reversible Auto-Lock Belt"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  <strong
+                    >FIDOZ® Genuine Leather Reversible Auto-Lock Belt</strong
+                  >
+                </h5>
+                <p class="card-text">
+                  Upgrade your style with this
+                  <strong>premium genuine leather</strong> belt, featuring a
+                  <strong>reversible black & tan strap</strong> for versatile
+                  wear. Designed for an
+                  <strong>adjustable fit (26"-44")</strong>, it comes with a
+                  <strong>gold-plated rotating buckle</strong>
+                  that adds a touch of elegance to any outfit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="col-md-4">
+            <div class="card m-2">
+              <img
+                src="img/p5.png"
+                class="card-img-top"
+                alt="Fidoz Men’s Black Leather Formal Belt with Pin Buckle"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  <strong
+                    >Fidoz Men’s Black Leather Formal Belt with Pin
+                    Buckle</strong
+                  >
+                </h5>
+                <p class="card-text">
+                  Crafted from <strong>100% genuine leather</strong>, this
+                  <strong>adjustable and durable</strong> belt is designed for
+                  both <strong>formal and casual wear</strong>. Featuring a
+                  classic <strong>pin buckle</strong>, it offers a secure fit
+                  and a timeless, elegant look. Suitable for waist sizes
+                  <strong>26" to 44"</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="col-md-4">
+            <div class="card m-2">
+              <img
+                src="img/p6.png"
+                class="card-img-top"
+                alt="FIDOZ Men's Black Formal Belt with Gold-Plated Grooved Buckle"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  <strong
+                    >FIDOZ Men's Black Formal Belt with Gold-Plated Grooved
+                    Buckle</strong
+                  >
+                </h5>
+                <p class="card-text">
+                  Made from <strong>100% genuine leather</strong>, this
+                  <strong>adjustable-fit</strong> belt is designed for both
+                  <strong>formal and casual wear</strong>. Featuring a
+                  <strong>stylish ribbed gold-plated grooved buckle</strong>, it
+                  adds a touch of sophistication to any outfit while ensuring
+                  durability and comfort.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">About Us</h2>
+        <p class="text-center">
+          At <strong>Fidoz</strong>, we believe a belt is more than just an
+          accessory—it’s a
+          <strong>statement of style and sophistication</strong>. Crafted from
+          <strong>genuine leather</strong>, our belts offer
+          <strong>durability, comfort, and elegance</strong>, making them the
+          perfect addition to both <strong>formal and casual attire</strong>.
+        </p>
+        <p class="text-center">
+          Our collection includes a variety of designs, such as
+          <strong>black formal belts, reversible belts, and luxury belts</strong
+          >. With <strong>premium materials</strong> and
+          <strong>high-quality buckles</strong>, Fidoz seamlessly blends fashion
+          and function, ensuring a refined look for every occasion.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact Us</h2>
+        <p class="text-center">
+          Feel free to reach out for any queries or feedback. We’d love to hear
+          from you!
+        </p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Write your message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <p><strong>Email:</strong> hello@jmenterprisess.in@gmail.com</p>
+          <p><strong>Phone:</strong> +91 9702398212</p>
+          <p>
+            <strong>Follow us:</strong>
+            <a href="https://www.amazon.in/s?k=Fidoz" class="mx-2">amazon</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center bg-light py-3">
+      <p>&copy; 2025 Fidoz. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
